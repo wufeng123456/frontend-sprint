@@ -1,4 +1,6 @@
-# vue-cli3-hw
+# [frontend-sprint](http://sprint.weineel.top/frontend-sprint)
+
+> github 托管 vue-router 要使用 hash 模式。
 
 ## Project setup
 ```

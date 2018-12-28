@@ -1,4 +1,7 @@
 module.exports = {
+  // https://cli.vuejs.org/config/#outputdir
+  baseUrl: '/frontend-sprint',
+  // outputDir: 'docs',
   chainWebpack: config => {
     // https://github.com/neutrinojs/webpack-chain
     config.module

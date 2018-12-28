@@ -13,6 +13,7 @@
       <li> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations#Configuring_the_animation"> Configuring_the_animation </a></li>
       <li> <a href="https://easings.net/zh-cn"> 缓动函数(timing-function) </a> </li>
       <li> 缓动函数和动画关键帧之间的关系研究 </li>
+      <div> a </div>
     </ul>
     <h2>vue</h2>
     <ul>
@@ -40,6 +41,8 @@
 </template>
 
 <script>
+  const debug = require('debug')('Animation:')
+
   export default {
 
     name: 'animation',
@@ -68,13 +71,13 @@
 
     methods: {
       init() {
-        console.log(this)
+        debug('%o', this)
       },
       leaveCancelled() {
-        console.log('leaveCancelled')
+        debug('leaveCancelled')
       },
       enterCancelled() {
-        console.log('enterCancelled')
+        debug('enterCancelled')
       }
     }
   }
