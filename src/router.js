@@ -27,7 +27,15 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/Animation.vue')
+      component: () => import(/* webpackChunkName: "about" */ './views/animation/Index.vue')
+    },
+    {
+      path: '/transition/sample',
+      name: 'transition-sample',
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import(/* webpackChunkName: "about" */ './views/animation/TransitionSample.vue')
     },
     {
       path: '/websocket',

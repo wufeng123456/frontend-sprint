@@ -1,7 +1,7 @@
 <template>
   <div class="animation">
     <h2>native css</h2>
-    <h4> &nbsp;&nbsp;&nbsp;&nbsp; CSS 过渡 </h4>
+    <h4> &nbsp;&nbsp;&nbsp;&nbsp; CSS 过渡 <router-link to="/transition/sample">示例</router-link></h4>
     <ul>
       <li> 突变：到目标样式的直接变化。在浏览器的devtools中调试样式就是一种突变，直接用代码修改样式也是一种突变。 </li>
       <li> 过渡：按某种规则逐渐变成目标样式。 </li>
