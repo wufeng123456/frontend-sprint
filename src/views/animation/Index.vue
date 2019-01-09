@@ -8,7 +8,7 @@
       <li> 规则：给这些突变加上了变化规则(transition css属性，加了这个css属性的 dom 节点，再进行样式变化时就变成了有规则的变化。)。 </li>
       <li> 局限：1. transition只能定义开始状态和结束状态，不能定义中间状态，也就是说只有两个状态。 2. transition是一次性的，不能重复发生，除非一再触发。 </li>
     </ul>
-    <h4> &nbsp;&nbsp;&nbsp;&nbsp; CSS 动画 </h4>
+    <h4> &nbsp;&nbsp;&nbsp;&nbsp; CSS 动画 <router-link to="/animation/sample">示例</router-link></h4>
     <ul>
       <li> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations#Configuring_the_animation"> Configuring_the_animation </a></li>
       <li> <a href="https://easings.net/zh-cn"> 缓动函数(时间函数)(timing-function) </a>； <a href="http://cubic-bezier.com/"> 三阶贝塞尔缓动函数(时间函数)工具 </a></li>
